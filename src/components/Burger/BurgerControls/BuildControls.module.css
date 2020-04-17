@@ -1,0 +1,31 @@
+.Controls{
+    width: 100%;
+    background: rgb(138, 37, 1);
+    display: flex ;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 2px 1px gray;
+    margin: auto;
+    padding: 10px 0;
+}
+.OrderButton{
+    padding: 10px;
+    width: 150px;
+    font-weight: bolder;
+    display: block;
+    outline: 0;
+    color: white;
+    margin-left: 8em;
+    background: rgb(92, 148, 3);
+    cursor: pointer;
+}
+.OrderButton:hover{
+    color:  black;
+    box-shadow: 5px 5px 8px black;
+}
+.OrderButton:disabled{
+    color:  black;
+    background: gray;
+    cursor: not-allowed;
+}

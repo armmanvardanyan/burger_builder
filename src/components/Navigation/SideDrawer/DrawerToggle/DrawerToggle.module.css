@@ -1,0 +1,9 @@
+.DrawerToggle>div::before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-top: 5px;
+    background: white;
+}
+

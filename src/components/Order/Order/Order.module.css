@@ -1,0 +1,25 @@
+.Order{
+    border: 2px solid gray;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+}
+.item{
+    display: inline-block;
+    margin-left: 5px;
+    text-transform: capitalize;
+    border: 1px solid gray;
+    padding: 8px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+}
+.Price{
+    margin-top: 10px;
+}
+
+@media(max-width:500px){
+    .item{
+        display: block;
+    }
+}

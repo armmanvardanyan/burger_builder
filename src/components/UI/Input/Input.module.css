@@ -1,0 +1,23 @@
+.Input{
+    width: 100%;
+}
+.InputElement{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.InputElement.Success{
+    background: rgb(69, 144, 69);
+    border: 2px solid forestgreen;
+}
+.InputElement.Danger{
+    background: rgb(251, 137, 137);
+    border: 2px solid maroon;
+}
+
+.InputElement:focus{
+    outline: 0;
+}
+
